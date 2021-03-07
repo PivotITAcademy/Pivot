@@ -6,27 +6,27 @@ public class MainShapeClass {
 		// TODO Auto-generated method stub
 		
 		//Create a rectangle and calculate area.
-//		Shape rectangle = new Shape();
-//		
+		Shape rectangle = new Shape();
+		
 //		//Initialize length and breadth for object rectangle 
-//		rectangle.length = 5;
-//		rectangle.breadth = 4;
+		rectangle.length = 5;
+		rectangle.breadth = 4;
 //		
 //		
 //		//Calling calculateArea() method  and passing value
-//		double area = rectangle.calculateArea("Rectangle");
+		double area = rectangle.calculateArea("Rectangle");
 //		
-//		System.out.println("Rectangle area : "+area);
+		System.out.println("Rectangle area : "+area);
 //		
 //		
 //	
 //		//Create a circle shape and calculate it's area;
-//		Shape circle = new Shape(5);
+		Shape circle = new Shape(5);
 //		
-//		area = circle.calculateArea("Circle");
+		area = circle.calculateArea("Circle");
 		
 		
-		//System.out.println("Circle area : "+area);
+		System.out.println("Circle area : "+area);
 		
 		
 		
@@ -41,8 +41,8 @@ public class MainShapeClass {
 		
 		
 		//Create rectangle and calculate area
-		Shape rectangle = new Shape(5,4);
-		double area = rectangle.calculateArea("Rectangle");
+		Shape rectangle1 = new Shape(5,4);
+		 area = rectangle1.calculateArea("Rectangle");
 		System.out.println("Rectangle area : "+area);
 		
 		
