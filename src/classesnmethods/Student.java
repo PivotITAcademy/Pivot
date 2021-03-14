@@ -1,17 +1,22 @@
 package classesnmethods;
 
+
+
 public class Student {
 
 	//Variables
-	int rollNo;
+	 int rollNo;
 	String  name;
 	int totalMarks;
-	String collegeName;
-	
+	 static String collegeName = "Waterloo";
+	 
+	 
 	//methods
 	
-	public  void study() {
-		System.out.println("Study well");
+	Student(int r,String studentName){
+		rollNo=r;
+		name=studentName;
+		
 	}
 	
 	public String getGrade() {
@@ -35,13 +40,4 @@ public class Student {
 	
 	
 	
-	public static void main(String args[]) {
-		Student student1 = new Student();
-		student1.rollNo=1;
-		student1.name="John";
-		student1.totalMarks=65;
-		
-		String student1Grade = student1.getGrade();
-		System.out.println("Grade :"+student1Grade);
-	}
 }
